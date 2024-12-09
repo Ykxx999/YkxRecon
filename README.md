@@ -30,9 +30,9 @@ chmod +x ykxrecon
 ## options
 
 ```bash
--h, --help            show this help message and exit
-  -d DOMAINS           just write domains you want to enum
-                        List of domains to add. Separate multiple domains with spaces.
+-h, --help              This will display help for the tool
+  -d DOMAINS            just add List of domains and Separate multiple domains with spaces.
+                       
   -f FILE, --file FILE  Path to a file containing domains (one per line).
   -v, --version         Display the script version and exit.
   --stdout              Display the subdomain enumeration result directly in the terminal.
