@@ -10,3 +10,6 @@ Take list of domains to find subdomains for
 
 
 [usage](usage)
+
+## Instalation
+
