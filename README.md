@@ -9,7 +9,7 @@ Take list of domains to find subdomains for
 [instalation](#instalation)
 
 
-[usage](#usage)
+[basic usage](#usage)
 
 
 [options](#options)
