@@ -7,4 +7,6 @@ Take list of domains to find subdomains for
 ## Table of content 
 
 [instalation](#instalation)
+
+
 [usage](usage)
