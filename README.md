@@ -35,5 +35,5 @@ chmod +x ykxrecon
                        
   -f FILE, --file FILE  Path to a file containing domains (one per line).
   -v, --version         Display the script version and exit.
-  --stdout              Display the subdomain enumeration result directly in the terminal without saving in files.
+  --stdout              Display the result directly in the terminal without saving in files.
 ```
