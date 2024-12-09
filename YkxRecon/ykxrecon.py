@@ -12,6 +12,7 @@ def logo():
 """)
 logo()
 
+# from sublist3r import main as sublismain  # You can use Sublist3r if you want
 import subprocess
 import argparse
 import os
@@ -117,6 +118,11 @@ def main():
                 if args.stdout:
                     # Display results directly in the terminal
                     try:
+                        
+                        # for amass 
+                        # subprocess.run(f"amass enum -d {domain} -o {subdomain_file} -silent", shell=True)
+                        
+                        # for subfinder
                         subprocess.run(f"subfinder -d {domain} -silent", shell=True, timeout=60)
                     except subprocess.TimeoutExpired:
                         print(f"Subdomain enumeration for {domain} timed out.")
