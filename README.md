@@ -15,5 +15,11 @@ Take list of domains to find subdomains for
 
 ```bash
 git clone https://github.com/Ykxx999/YkxRecon.git
+cd YkxRecon/YkxRecon
+chmod +x ykxrecon
 ```
 ## Usage
+
+```bash
+./ykxrecon.py -h
+```
