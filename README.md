@@ -11,6 +11,9 @@ Take list of domains to find subdomains for
 
 [usage](#usage)
 
+
+[options](#options)
+
 ## Instalation
 
 ```bash
@@ -18,8 +21,19 @@ git clone https://github.com/Ykxx999/YkxRecon.git
 cd YkxRecon/YkxRecon
 chmod +x ykxrecon
 ```
-## Usage
+## Basic Usage
 
 ```bash
-./ykxrecon.py -h
+./ykxrecon.py -d glassdoor.com tiktok.com hackerone.com --stdout
+```
+
+## options
+
+```bash
+-h, --help            show this help message and exit
+  -d DOMAINS [DOMAINS ...], --domains DOMAINS [DOMAINS ...]
+                        List of domains to add. Separate multiple domains with spaces.
+  -f FILE, --file FILE  Path to a file containing domains (one per line).
+  -v, --version         Display the script version and exit.
+  --stdout              Display the subdomain enumeration result directly in the terminal.
 ```
